@@ -2,7 +2,7 @@
 SendMode "Input"  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir A_ScriptDir  ; Ensures a consistent starting directory.
 
-#Persistent
+Reconnect()
 SetTimer("Reconnect",30000) ;每30秒重连一次可自行修改
 return
 
