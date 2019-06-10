@@ -1,0 +1,5 @@
+# MoschatAutoReconnect
+
+为了自动重连Moschat，定期给moschat客户端后台窗口发送鼠标事件
+
+如果你是客户端版且系统缩放是100%，只自动进入第一个频道的第一个房间，那么可以直接用这个编译的exe文件，否则需要使用AutoHotkey V2版
