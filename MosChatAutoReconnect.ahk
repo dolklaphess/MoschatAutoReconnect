@@ -8,8 +8,8 @@ return
 
 Reconnect()
 {
-ControlClick("X22 Y145", "ahk_exe moschat.exe", , "LEFT",1,"NA")
+ControlClick("X32 Y305", "ahk_exe chrome.exe", , "LEFT",1,"NA") ;ControlClick("X22 Y145", "ahk_exe moschat.exe", , "LEFT",1,"NA")
 sleep 1000
-ControlClick("X180 Y235", "ahk_exe moschat.exe", , "LEFT",1,"NA") ;客户端版，网页版将moschat.exe改成你的浏览器程序名，并修改XY为需要点击的频道和房间相对于该窗口左上角的坐标
+ControlClick("X185 Y340", "ahk_exe chrome.exe", , "LEFT",1,"NA") ;ControlClick("X180 Y235", "ahk_exe moschat.exe", , "LEFT",1,"NA") ;客户端版，网页版将moschat.exe改成你的浏览器程序名，并修改XY为需要点击的频道和房间相对于该窗口左上角的坐标
 return
 }
